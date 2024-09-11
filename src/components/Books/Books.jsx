@@ -5,6 +5,8 @@ import { FaRegStar } from "react-icons/fa";
 const Books = () => {
   const [books, setBooks] = useState([]);
 
+  const [dataLength, setDataLength] = useState(6);
+
   useEffect(() => {
     fetch('/Books/books.json')
       .then((res) => res.json())
@@ -16,7 +18,7 @@ const Books = () => {
     <div className="mb-10">
       <h1 className="text-center text-5xl font-bold mb-10">Books</h1>
       <div className="grid grid-cols-3 gap-6">
-        {books.map((book) => (
+        {books.slice(0, dataLength).map((book) => (
           <div
             key={book.bookId}
             className="p-5 border rounded-2xl shadow-md flex flex-col"
@@ -44,6 +46,13 @@ const Books = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className={dataLength === books.length ? 'hidden' : 'mt-4 text-center'}>
+        <button 
+          onClick={() => setDataLength(books.length)}
+          className="btn btn-success">
+          Show All Books
+        </button>
       </div>
     </div>
   );
