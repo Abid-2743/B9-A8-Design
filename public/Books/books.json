@@ -10,7 +10,8 @@
     "category": "Thriller",
     "tags": ["Psychological", "Mystery", "Suspense"],
     "publisher": "Celadon Books",
-    "yearOfPublishing": 2019
+    "yearOfPublishing": 2019,
+    "genre": "Thriller"
   },
   {
     "bookId": 2,
@@ -23,7 +24,8 @@
     "category": "Biography",
     "tags": ["Memoir", "Inspirational", "Non-Fiction"],
     "publisher": "Random House",
-    "yearOfPublishing": 2018
+    "yearOfPublishing": 2018,
+    "genre": "Biography"
   },
   {
     "bookId": 3,
@@ -36,7 +38,8 @@
     "category": "Fiction",
     "tags": ["Mystery", "Romance", "Coming-of-Age"],
     "publisher": "G.P. Putnam's Sons",
-    "yearOfPublishing": 2018
+    "yearOfPublishing": 2018,
+    "genre": "Mystery"
   },
   {
     "bookId": 4,
@@ -49,7 +52,8 @@
     "category": "Biography",
     "tags": ["Memoir", "Inspirational", "Non-Fiction"],
     "publisher": "Crown Publishing Group",
-    "yearOfPublishing": 2018
+    "yearOfPublishing": 2018,
+    "genre": "Biography"
   },
   {
     "bookId": 5,
@@ -62,7 +66,8 @@
     "category": "Fiction",
     "tags": ["Adventure", "Philosophy", "Spirituality"],
     "publisher": "HarperOne",
-    "yearOfPublishing": 1988
+    "yearOfPublishing": 1988,
+    "genre": "Adventure"
   },
   {
     "bookId": 6,
@@ -75,7 +80,8 @@
     "category": "Self-Help",
     "tags": ["Psychology", "Productivity", "Non-Fiction"],
     "publisher": "Random House",
-    "yearOfPublishing": 2012
+    "yearOfPublishing": 2012,
+    "genre": "Psychology"
   },
   {
     "bookId": 7,
@@ -88,7 +94,8 @@
     "category": "Classic",
     "tags": ["Historical", "Social Justice", "Fiction"],
     "publisher": "J.B. Lippincott & Co.",
-    "yearOfPublishing": 1960
+    "yearOfPublishing": 1960,
+    "genre": "Historical Fiction"
   },
   {
     "bookId": 8,
@@ -101,7 +108,8 @@
     "category": "Self-Help",
     "tags": ["Productivity", "Psychology", "Non-Fiction"],
     "publisher": "Avery",
-    "yearOfPublishing": 2018
+    "yearOfPublishing": 2018,
+    "genre": "Self-Help"
   },
   {
     "bookId": 9,
@@ -114,6 +122,7 @@
     "category": "Classic",
     "tags": ["Dystopian", "Political", "Fiction"],
     "publisher": "Secker & Warburg",
-    "yearOfPublishing": 1949
+    "yearOfPublishing": 1949,
+    "genre": "Dystopian Fiction"
   }
 ]
