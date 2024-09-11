@@ -1,8 +1,10 @@
-const BookDetails = () => (
-    <div>
-      <h1>This is Book Details</h1>
-    </div>
+const BookDetails = () => {
+  return(
+  <div>
+       <h1>This is BookDetails</h1>
+     </div>
   );
-  
-  export default BookDetails;
-  
+ };
+   
+   export default BookDetails;
+   
